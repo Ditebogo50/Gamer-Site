@@ -1,0 +1,79 @@
+@import"reset";
+body {
+    background: #f2f2f2;
+    font-family: "UniversBoldCondensed", Helvetica, sans-serif;
+}
+
+.header {
+    /*align the logo center, hover with pink color, increase font, add a pink border,remove underline*/
+    .container {
+        text-align: center;
+        //border: palevioletred solid 2px;
+        background: rgb(216, 122, 147);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(216, 122, 147, 1) 100%);
+        padding: 40px;
+        .logo {
+            font-size: 150px;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            color: rgb(46, 45, 45);
+            ;
+            &:hover {
+                color: palevioletred;
+            }
+        }
+    }
+}
+
+.navbar {
+    /*make background blabk,center text,create space between text,remove underline,*/
+    .container {
+        background: white;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        li {
+            display: inline-block;
+            padding-left: 20px;
+            font-size: 20px;
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.socials {
+    .container {
+        display: flex;
+        padding-top: 170px;
+        padding-bottom: 170px;
+        div {
+            text-align: center;
+            // padding: 2em 2em;
+            width: 80%;
+            img {
+                padding-top: 30px;
+                width: 25em;
+                padding-bottom: 90px;
+            }
+            h1 {
+                font-size: 55px;
+                padding-bottom: 20px;
+                font-weight: bold;
+                margin-left: 20px;
+            }
+        }
+        a {
+            background: black;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: .5em;
+            margin-left: -300px;
+        }
+    }
+}
